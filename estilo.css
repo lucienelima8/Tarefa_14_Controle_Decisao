@@ -1,0 +1,152 @@
+
+:root {
+    --cor-principal: linear-gradient(rgb(160, 160, 250), rgb(128, 236, 230), rgb(241, 234, 132));
+
+}
+
+body {
+    background-image: var(--cor-principal);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    color: #000000;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+
+/*Título principal da página*/
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgb(19, 0, 128);
+    text-shadow: 2px 2px 2px rgb(128, 36, 0);
+    margin-top: 1rem;
+     
+}
+
+
+/*Usuáiro digitar 3 números e o JS fazer a média aritmética*/
+
+/*Section com as 3 divs*/
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.5rem;
+
+    width: 100%;
+    /*margin: 1rem auto;*/
+    margin-top: 3rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    justify-content: space-between;
+
+}
+
+/*div pra média aritmética*/
+.container_media {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 0, 128);
+    /*text-shadow: 2px 2px 2px black;*/
+    margin-top: 1rem;
+    border: 2px dashed black;
+    border-radius: 15px;
+
+}
+
+
+/*Título de cada div*/
+h2 {
+    font-size: 1.4rem;
+    color: blue;
+
+
+}
+
+/*Box dos números*/
+#num1, #num2, #num3 {
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    border-radius: 10px;
+    padding: .3rem;
+    border: none;
+    color: blue;
+    font-weight: bold;
+    text-align: right;
+     
+}
+
+
+input::placeholder {
+    font-size: .7em;
+    text-align: center;
+    color: #acaaaa;
+  
+
+}
+
+
+/*Calcular*/
+.btnCalcular {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 255, 0.555);
+    cursor: pointer;
+    padding: .9rem;
+    /*margin: 1rem;*/
+    border-radius: 10px;
+        
+
+}
+
+.btnCalcular:hover {
+    background-image: var(--cor-principal);
+    transform: scale(1.1);
+}
+
+
+
+/*Resultado*/
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: blue;
+
+}
+
+
+
+
+footer {
+    font-size: 11px;
+    /*text-shadow: 2px 2px 2px black;*/
+    font-weight: bold;
+    letter-spacing: 2px; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*height: 4vh;*/
+    /*background-color: #c0bebeaf;*/
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    opacity: .7;
+       
+}
