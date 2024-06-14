@@ -30,8 +30,7 @@ h1 {
      
 }
 
-
-/*Usuáiro digitar 3 números e o JS fazer a média aritmética*/
+/*MÉDIA ARITMÉTICA DE 3 NÚMEROS*/
 
 /*Section com as 3 divs*/
 section {
@@ -86,16 +85,16 @@ h2 {
 }
 
 
+/*Input pra média e pra idade*/
 input::placeholder {
     font-size: .7em;
     text-align: center;
     color: #acaaaa;
-  
-
+ 
 }
 
 
-/*Calcular*/
+/*Calcular média*/
 .btnCalcular {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -110,6 +109,7 @@ input::placeholder {
         
 
 }
+
 
 .btnCalcular:hover {
     background-image: var(--cor-principal);
@@ -126,6 +126,64 @@ h3 {
     margin-top: 1rem;
     color: blue;
 
+}
+
+
+/*USUÁRIO É MENOR DE IDADE OU NÃO*/
+
+.container_idade {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 0, 128);
+    /*text-shadow: 2px 2px 2px black;*/
+    margin-top: 1rem;
+    border: 2px dashed black;
+    border-radius: 15px;
+
+}
+
+/*input da idade*/
+#idade {
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    border-radius: 10px;
+    padding: .3rem;
+    border: none;
+    color: blue;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+/*placeholder do input da idade*/
+.input_idade::placeholder {
+    font-size: .7em;
+    text-align: center;
+    color: #acaaaa;
+
+}
+
+.btn_idade {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    background-color: rgba(0, 0, 255, 0.555);
+    cursor: pointer;
+    padding: .9rem;
+    /*margin: 1rem;*/
+    border-radius: 10px;
+        
+
+}
+
+
+.btn_idade:hover {
+    background-image: var(--cor-principal);
+    transform: scale(1.1);
 }
 
 
