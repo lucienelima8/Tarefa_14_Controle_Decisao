@@ -120,7 +120,7 @@ input::placeholder {
 
 
 
-/*Resultado*/
+/*Resultado média*/
 h3 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -246,6 +246,18 @@ h3 {
     background-image: var(--cor-principal);
     transform: scale(1.1);
 }
+
+/*Resultado mês*/
+.resultado {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: blue;
+
+}
+
+
 
 footer {
     font-size: 11px;
