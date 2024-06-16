@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="normalize.css">
 
     <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 <body>
 
@@ -63,7 +65,17 @@
 
 
      <!-- Usuário digitar um número e o JS informar o mês correspondente -->
-      <div>
+      <div class="container_mes">
+
+        <h2>Qual mês?</h2>
+
+        <input class="input_mes" id="mes" name="num" type="number" placeholder="Digite um número de 1 a 12"><br>
+              
+        <br>
+        
+        <button class="btn_mes" onclick="calcular_mes()" type="button">Mês</button>
+
+
 
       </div>
 

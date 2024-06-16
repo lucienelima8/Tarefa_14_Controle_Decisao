@@ -1,0 +1,71 @@
+/* /*RESPONSIVIDADE  telas até 1115px**/
+@media screen and (max-width: 845px) {
+    section {
+        width: auto;
+
+        display: grid;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 0.5rem;
+
+
+    }
+
+    .container_media, .container_idade, .container_mes {
+        margin-top: 2rem;
+    }
+
+    .btnCalcular, .btn_idade, .btn_mes {
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        margin-top: 4rem;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    /*Título principal da página*/
+    h1 {
+        font-size: 2rem;
+
+        
+    }
+    
+    section {
+        display: grid;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 0.5rem;
+
+        width: auto;
+       
+        justify-content: space-between;
+
+       
+    }
+
+    .container_media, .container_idade, .container_mes {
+        margin-top: 2rem;
+    }
+
+    .btnCalcular, .btn_idade, .btn_mes {
+        margin-bottom: 2rem;
+    }
+
+
+
+    footer {
+        margin-top: 4rem;
+        align-items: center;
+    }
+
+}

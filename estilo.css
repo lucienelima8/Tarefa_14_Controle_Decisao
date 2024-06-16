@@ -24,8 +24,8 @@ h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3rem;
-    color: rgb(19, 0, 128);
-    text-shadow: 2px 2px 2px rgb(128, 36, 0);
+    color: rgb(79, 55, 216);
+    text-shadow: 2px 2px 2px white;
     margin-top: 1rem;
      
 }
@@ -36,8 +36,10 @@ h1 {
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 0.5rem;
+    /*grid-template-rows: repeat(4, 1fr);*/
+    grid-template-rows: repeat(1, 1fr);
+
+    gap: 0.3rem;
 
     width: 100%;
     /*margin: 1rem auto;*/
@@ -62,9 +64,9 @@ section {
 }
 
 
-/*Título de cada div*/
+/*Título de cada div (média, idade, mês)*/
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: blue;
 
 
@@ -87,7 +89,7 @@ h2 {
 
 /*Input pra média e pra idade*/
 input::placeholder {
-    font-size: .7em;
+    font-size: .6em;
     text-align: center;
     color: #acaaaa;
  
@@ -146,7 +148,7 @@ h3 {
 /*input da idade*/
 #idade {
     margin-top: .5rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 1rem;
     border-radius: 10px;
     padding: .3rem;
@@ -188,6 +190,62 @@ h3 {
 
 
 
+/*MESES DO ANO*/
+
+.container_mes {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 0, 128);
+    /*text-shadow: 2px 2px 2px black;*/
+    margin-top: 1rem;
+    border: 2px dashed black;
+    border-radius: 15px;
+
+}
+
+/*input da mês*/
+.input_mes {
+    margin-top: .5rem;
+    font-size: 1.1rem;
+    font-weight: 1rem;
+    border-radius: 10px;
+    padding: .3rem;
+    border: none;
+    color: blue;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+/*placeholder do input mês*/
+.input_mes::placeholder {
+    font-size: .7em;
+    text-align: center;
+    color: #acaaaa;
+
+}
+
+.btn_mes {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    background-color: rgba(0, 0, 255, 0.555);
+    cursor: pointer;
+    padding: .9rem;
+    /*margin: 1rem;*/
+    border-radius: 10px;
+        
+
+}
+
+
+.btn_mes:hover {
+    background-image: var(--cor-principal);
+    transform: scale(1.1);
+}
 
 footer {
     font-size: 11px;
@@ -196,13 +254,13 @@ footer {
     letter-spacing: 2px; 
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /*width: 100%;*/
     /*height: 4vh;*/
     /*background-color: #c0bebeaf;*/
     text-align: center;
     padding-bottom: 0;
     padding-top: 0;
-    margin-top: 0;
+    margin-top: auto;
     margin-bottom: 0;
     position: relative;
     opacity: .7;
