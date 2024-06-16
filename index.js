@@ -15,9 +15,9 @@ function calcular_media () {
 
 /*USUÁRIO É MENOR DE IDADE OU NÃO*/
 
-function calcular_idade {
+function calcular_idade () {
 
-    const idade = parseFloat(document.getElementById('idade').value);
+    let idade = parseFloat(document.getElementById('idade').value);
 
     if(idade >= 18) {
     alert("Vocé é maior de idade");
