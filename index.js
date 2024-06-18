@@ -22,10 +22,10 @@ function calcular_idade () {
     let idade = parseFloat(document.getElementById('idade').value);
 
     if(idade >= 18) {
-    alert("Vocé é maior de idade");
+    alert("Vocé é maior de idade.");
 
     }else {
-    alert("Você é menor de idade");
+    alert("Você é menor de idade.");
 
     }
 }
