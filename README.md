@@ -1,6 +1,8 @@
 # Tarefa_14_Controle_Decisao
 Tarefa 14: Comandos de Controle e Decisão
 
+HTML 5, CSS 3 e JavaScript
+
 Faça um programa JavaScript que receba 3 números informados pelo usuário e em seguida apresente na tela qual é a média destes números. 
 
 Faça um programa JavaScript em que o usuário informará a sua idade e o programa emitirá uma mensagem(alert) dizendo se o usuário é ou não menor de idade. 
