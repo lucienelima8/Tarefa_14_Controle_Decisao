@@ -7,6 +7,9 @@ Faça um programa JavaScript em que o usuário informará a sua idade e o progra
 
 Faça um programa JavaScript para definir qual é o mês com base em um número fornecido pelo usuário. Mostre na tela o mês correspondente ao valor informado. O valor informado pelo usuário deve estar dentro do intervalo que vai de 1 a 12 somente, caso contrario exibir mensagem dizendo que o número é inválido.
 
+
+![controle_decisao](https://github.com/lucienelima8/Tarefa_14_Controle_Decisao/assets/137119392/eb580590-554b-4eca-baab-3a57238a31a4)
+
 <br>
 <hr>
 <b>Plágio é crime.<br>
