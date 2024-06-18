@@ -1,5 +1,5 @@
-# Tarefa_11_Controle_Decisao
-Tarefa 11: Comandos de Controle e Decisão
+# Tarefa_14_Controle_Decisao
+Tarefa 14: Comandos de Controle e Decisão
 
 Faça um programa JavaScript que receba 3 números informados pelo usuário e em seguida apresente na tela qual é a média destes números. 
 
