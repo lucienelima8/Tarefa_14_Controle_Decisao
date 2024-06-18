@@ -34,14 +34,14 @@ function calcular_idade () {
 
 /*QUAL É O MÊS?*/
 
-function n_Mes(numero) {
+function n_Mes(num) {
 
     const meses = [
         "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto","Setembro", "Outubro", "Novembro", "Dezembro"
     ];
 
-    if (numero >= 1 && numero <= 12){
-        return meses[numero - 1];
+    if (num >= 1 && num <= 12){
+        return meses[num - 1];
 
     }else {
         return "Seu número não corresponde a nenhum mês.Digite um número de 1 a 12.";
@@ -51,10 +51,10 @@ function n_Mes(numero) {
 
 function calcular_mes() {
     /*Pegar o número que o usuário digitou*/
-    var numero = parseInt(document.getElementById("numero").value);
+    var num = parseInt(document.getElementById("numero").value);
 
     /*Chamando função dos números pra conversão*/
-    var mes = n_Mes(numero);
+    var mes = n_Mes(num);
 
     
     /*Resultado*/
