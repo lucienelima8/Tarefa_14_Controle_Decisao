@@ -9,7 +9,7 @@ function calcular_media () {
    
     const media = (num1 + num2 + num3) / 3;
 
-    document.getElementById('resultArea').innerHTML = `A média é: ` + media;
+    document.getElementById('resultArea').innerHTML = `A média é: ` + media.toFixed(2);
 
 }
 
